@@ -1,0 +1,22 @@
+-- Drop table
+
+-- DROP TABLE public.tabela_a;
+
+CREATE TABLE public.tabela_a (
+	id int4 NOT NULL,
+	dt_registro varchar(20) NOT NULL,
+	nome varchar(100) NOT NULL,
+	sexo varchar(10) NULL
+);
+
+
+-- Drop table
+
+-- DROP TABLE public.tabela_b;
+
+CREATE TABLE public.tabela_b (
+	id int4 NOT NULL,
+	dt_registro date NOT NULL,
+	nome varchar(50) NOT NULL,
+	sexo bool NOT NULL
+);
